@@ -1,0 +1,2 @@
+- [PaisaWeb App Architecture](paisa-web-arch.md) — React Native Expo app: AppContext is the single source of truth; useAppColors() reads isDarkMode from context (not system); GlobalModals.tsx renders all 7 CRUD modals; sub-views (AllCommitments, AllTransactions) are full-screen RN Modals triggered by activeTab context state.
+- [PaisaWeb Colors](paisa-web-colors.md) — constants/colors.ts must include both `text` AND `foreground` (alias) + `warning` fields or ErrorFallback/+not-found will fail typecheck since they use useColors() which references `foreground`.

@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "2ITWYj7R1tA-QPJ4ND1oW"
+uri = "file://artifacts/paisa-web/assets/images/icon.png"
+type = "image"
+title = "paisa-web-app-icon"
